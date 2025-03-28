@@ -1,0 +1,121 @@
+body{
+    margin:;
+    background-color: rgb(251, 254, 254);
+}
+.header{
+    display: flex;
+    height: 100px;
+    background-color: rgb(254, 254, 254);
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0%;
+    
+}
+
+h1{
+    margin-left: 40px;
+    font-family: "Alice", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #21378a;
+  font-size: 50px;
+  
+}
+
+.navbar a{
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 50px;
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style:oblique;
+  font-size: 25px;
+  color: #000;
+
+
+}
+
+.button{
+    height: 40px;
+    width: 90px;
+    background-color: #333333;
+    margin-right: 30px;
+    align-items:center;
+    border-radius: 25% 25% 25% 25%;
+}
+.login a{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(240, 240, 240);
+    margin-left: 20px;
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style:oblique;
+  font-size: 20px;
+}
+
+.container{
+    border: 4px black dashed;
+    height: 300px;
+    width: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-left: 70px;
+    gap: 20px;
+}
+.upload{
+    height: 50px;
+    width: 300px;
+    background-color: #333333;
+    margin-right: 30px;
+    align-items:center;
+    border-radius: 25% 25% 25% 25%;
+    margin-top: 200px;
+    margin-left: 230px;
+}
+
+.text input{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(240, 240, 240);
+    margin-left: 70px;
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style:oblique;
+  font-size: 10px;
+}
+
+.text label{
+    font-family:"Montserrat Alternates", sans-serif ;
+    color: #f8f2f2;
+    margin-left: 70px;
+    font-size: 20px;
+    
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+    margin: 10px;
+    gap: 10px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-family:"Montserrat Alternates", sans-serif ;
+
+}
+
+.form input{
+    height: 30px;
+    border-radius: 20px;
+    width: 500px;
+    background-color: #fcfcfc;
+}
+
+.form select{
+    height: 30px;
+    border-radius: 20px;
+    width: 500px;
+}
